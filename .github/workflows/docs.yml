@@ -1,0 +1,47 @@
+# Deploys the docs site to GitHub Pages.
+#
+# Manual trigger only. The repo is private and Pages is not enabled on it, so a
+# push trigger would fail on every commit that touches website/. The site is
+# served locally instead (see website/serve.ts). To switch to Pages: enable it
+# with `gh api -X POST repos/m4ttheweric/gitq/pages -f build_type=workflow`,
+# which requires a paid plan on a private repo and publishes the site publicly,
+# then add the push trigger back.
+name: Docs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: website/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
