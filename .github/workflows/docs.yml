@@ -1,11 +1,14 @@
+# Deploys the docs site to GitHub Pages.
+#
+# Manual trigger only. The repo is private and Pages is not enabled on it, so a
+# push trigger would fail on every commit that touches website/. The site is
+# served locally instead (see website/serve.ts). To switch to Pages: enable it
+# with `gh api -X POST repos/m4ttheweric/gitq/pages -f build_type=workflow`,
+# which requires a paid plan on a private repo and publishes the site publicly,
+# then add the push trigger back.
 name: Docs
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "website/**"
-      - ".github/workflows/docs.yml"
   workflow_dispatch:
 
 permissions:
