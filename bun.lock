@@ -5,8 +5,8 @@
     "": {
       "name": "gitq",
       "dependencies": {
+        "@mattstack/glance": "^0.13.0",
         "@mattstack/rt-client": "file:../repo-tools/packages/rt-client",
-        "@workforge/glance-sdk": "^0.11.0",
         "picomatch": "^4.0.2",
         "react": "^19.2.0",
         "react-dom": "^19.2.0",
@@ -26,6 +26,8 @@
     "@gitbeaker/requester-utils": ["@gitbeaker/requester-utils@43.8.0", "", { "dependencies": { "picomatch-browser": "^2.2.6", "qs": "^6.14.0", "rate-limiter-flexible": "^8.0.1", "xcase": "^2.0.1" } }, "sha512-d/SiJdxijc+aH5ZBQOw83XLxNSXqsBZNm5k3nPu1EHxGxK0fajXmxdMl0/vNXbKRggnIquFCxURkrQSEzfjqxQ=="],
 
     "@gitbeaker/rest": ["@gitbeaker/rest@43.8.0", "", { "dependencies": { "@gitbeaker/core": "^43.8.0", "@gitbeaker/requester-utils": "^43.8.0" } }, "sha512-xxqsNsUXaFang9b2e/NTIgqUeuUlifA2Opy1mOVqTDuJZZNIOTgUNyziwBJoleBhMC0XuvY3JNVMWthufcVjRw=="],
+
+    "@mattstack/glance": ["@mattstack/glance@0.13.1", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0" } }, "sha512-tDydQO1rl9QJTuksATTIH6yHXtk0HhwC5O8z51TlA3lkbGNa96jflI86hX5hCblLOgpWuUej1h2bErjawxXn+Q=="],
 
     "@mattstack/rt-client": ["@mattstack/rt-client@file:../repo-tools/packages/rt-client", { "peerDependencies": { "@workforge/glance-sdk": ">=0.11.0" } }],
 
