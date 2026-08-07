@@ -5,7 +5,7 @@
     "": {
       "name": "gitq",
       "dependencies": {
-        "@mattstack/glance": "^0.17.0",
+        "@mattstack/glance": "^0.18.0",
         "picomatch": "^4.0.2",
       },
       "devDependencies": {
@@ -27,7 +27,7 @@
 
     "@gitbeaker/rest": ["@gitbeaker/rest@43.8.0", "", { "dependencies": { "@gitbeaker/core": "^43.8.0", "@gitbeaker/requester-utils": "^43.8.0" } }, "sha512-xxqsNsUXaFang9b2e/NTIgqUeuUlifA2Opy1mOVqTDuJZZNIOTgUNyziwBJoleBhMC0XuvY3JNVMWthufcVjRw=="],
 
-    "@mattstack/glance": ["@mattstack/glance@0.17.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-npTEjhfYM6eHJutRnlc9wEwHNaBAEe3H8N9mZ31dmarzFlwwo/8sg00RZALwqM8K27hzTGWjD5BqV1gWj0/DMQ=="],
+    "@mattstack/glance": ["@mattstack/glance@0.18.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-En6JsVn85VpZvZx8X21HrEqVIzC5ndalFfsXJufJ+eKb8Va2jJUX/z88NjnWi21BphE1Uuvfdg0fydmG2W5URQ=="],
 
     "@mattstack/rt-client": ["@mattstack/rt-client@0.2.0", "", { "peerDependencies": { "@mattstack/glance": ">=0.13.0" } }, "sha512-o1uTaJLuaUFqZ7/c2SrRODcC50XlbTdIeuFoaDcgxh4WwA8KsyUr7oMX2gwRU8hKT4y1LyPJE4qwqtKEMaz/ug=="],
 
