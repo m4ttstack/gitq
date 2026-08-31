@@ -6,7 +6,7 @@
       "name": "gitq",
       "dependencies": {
         "@mattstack/glance": "^0.19.0",
-        "@mattstack/rt-client": "^0.4.0",
+        "@mattstack/rt-client": "^0.4.1",
         "picomatch": "^4.0.2",
       },
       "devDependencies": {
@@ -29,7 +29,7 @@
 
     "@mattstack/glance": ["@mattstack/glance@0.19.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-H+QMuyC3IZ3SXl8TpdjIKVhZvx+vP2ltVdt88CDz8e6YFponB2fplyOrHXLvGFITN1EnnEM6DQyYTcQ06F+7fg=="],
 
-    "@mattstack/rt-client": ["@mattstack/rt-client@0.4.0", "", { "dependencies": { "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.13.0" } }, "sha512-cje8sLAToZ9D8xPa4gOSIl8kFSw3q7jsML3nQlyWI7il4YEEegrOxcuZMke499GHXk+hddUFwV/RY3BrOKjBWg=="],
+    "@mattstack/rt-client": ["@mattstack/rt-client@0.4.1", "", { "dependencies": { "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.13.0" } }, "sha512-FFXGJWQeqlIb6t0gA9XkMN7Y0V86rIN8BOzTmU67rRKgjT/zrUl3nVFX5IjrTJh1uQgORog62+k4hvQNZ/RK4A=="],
 
     "@octokit/auth-token": ["@octokit/auth-token@6.0.0", "", {}, "sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w=="],
 
