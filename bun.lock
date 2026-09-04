@@ -5,8 +5,8 @@
     "": {
       "name": "gitq",
       "dependencies": {
-        "@mattstack/glance": "^0.20.0",
-        "@mattstack/rt-client": "^0.11.0",
+        "@mattstack/glance": "^0.24.0",
+        "@mattstack/rt-client": "^0.13.0",
         "picomatch": "^4.0.2",
       },
       "devDependencies": {
@@ -27,9 +27,9 @@
 
     "@gitbeaker/rest": ["@gitbeaker/rest@43.8.0", "", { "dependencies": { "@gitbeaker/core": "^43.8.0", "@gitbeaker/requester-utils": "^43.8.0" } }, "sha512-xxqsNsUXaFang9b2e/NTIgqUeuUlifA2Opy1mOVqTDuJZZNIOTgUNyziwBJoleBhMC0XuvY3JNVMWthufcVjRw=="],
 
-    "@mattstack/glance": ["@mattstack/glance@0.20.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-WaOLfpQPim4p/HHg1JdQ2wltLIU/YUkVN0Il+4Y1Df/+EQJsN1cUUWmAg+QAgd9xH6PJNOuHlVQt4t4pPecAYQ=="],
+    "@mattstack/glance": ["@mattstack/glance@0.24.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-Pb9CcjThjI5JKWy0C/BfgyMo2rViGBq4jhbOOnYDSOj3QKudj6WE9dtcXsPKDTvmXFL2Dhkvzr/DHUlD5uZQJw=="],
 
-    "@mattstack/rt-client": ["@mattstack/rt-client@0.11.0", "", { "dependencies": { "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.13.0" } }, "sha512-IqkjX3vBG+QSLrP/za7BtJBb65zd7rwhkgTOKnKiXvLOMGKfA5n5AapSPdnX/Nti0tFkNP+V0EazK7q6p8rhEw=="],
+    "@mattstack/rt-client": ["@mattstack/rt-client@0.13.0", "", { "dependencies": { "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.23.0" } }, "sha512-1AGNTXM5kVyLk9npzjF0dckejdNgcrpaICqvQzZrh25WpMb0dH3O7cLXqOInnIfj/CGi3RbTwo5HKWDq0geUrw=="],
 
     "@octokit/auth-token": ["@octokit/auth-token@6.0.0", "", {}, "sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w=="],
 
