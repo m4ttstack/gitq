@@ -18,8 +18,8 @@
     "release": "bun run scripts/release.ts"
   },
   "dependencies": {
-    "@mattstack/glance": "^0.24.0",
-    "@mattstack/rt-client": "^0.14.0",
+    "@mattstack/glance": "^0.27.0",
+    "@mattstack/rt-client": "^0.33.0",
     "picomatch": "^4.0.2"
   },
   "devDependencies": {

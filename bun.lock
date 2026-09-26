@@ -5,8 +5,8 @@
     "": {
       "name": "gitq",
       "dependencies": {
-        "@mattstack/glance": "^0.24.0",
-        "@mattstack/rt-client": "^0.14.0",
+        "@mattstack/glance": "^0.27.0",
+        "@mattstack/rt-client": "^0.33.0",
         "picomatch": "^4.0.2",
       },
       "devDependencies": {
@@ -21,15 +21,17 @@
     },
   },
   "packages": {
+    "@cfworker/json-schema": ["@cfworker/json-schema@4.1.1", "", {}, "sha512-gAmrUZSGtKc3AiBL71iNWxDsyUC5uMaKKGdvzYsBoTW/xi42JQHl7eKV2OYzCUqvc+D2RCcf7EXY2iCyFIk6og=="],
+
     "@gitbeaker/core": ["@gitbeaker/core@43.8.0", "", { "dependencies": { "@gitbeaker/requester-utils": "^43.8.0", "qs": "^6.14.0", "xcase": "^2.0.1" } }, "sha512-H+LfKuf4dExBinb79c+CXViRBvTVQNf5BYLNSizm2SiqdED5JruhKX88payefleY0szp7G/mySlFSXPyGRH1dQ=="],
 
     "@gitbeaker/requester-utils": ["@gitbeaker/requester-utils@43.8.0", "", { "dependencies": { "picomatch-browser": "^2.2.6", "qs": "^6.14.0", "rate-limiter-flexible": "^8.0.1", "xcase": "^2.0.1" } }, "sha512-d/SiJdxijc+aH5ZBQOw83XLxNSXqsBZNm5k3nPu1EHxGxK0fajXmxdMl0/vNXbKRggnIquFCxURkrQSEzfjqxQ=="],
 
     "@gitbeaker/rest": ["@gitbeaker/rest@43.8.0", "", { "dependencies": { "@gitbeaker/core": "^43.8.0", "@gitbeaker/requester-utils": "^43.8.0" } }, "sha512-xxqsNsUXaFang9b2e/NTIgqUeuUlifA2Opy1mOVqTDuJZZNIOTgUNyziwBJoleBhMC0XuvY3JNVMWthufcVjRw=="],
 
-    "@mattstack/glance": ["@mattstack/glance@0.24.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-Pb9CcjThjI5JKWy0C/BfgyMo2rViGBq4jhbOOnYDSOj3QKudj6WE9dtcXsPKDTvmXFL2Dhkvzr/DHUlD5uZQJw=="],
+    "@mattstack/glance": ["@mattstack/glance@0.27.0", "", { "dependencies": { "@gitbeaker/rest": "^43.8.0", "@octokit/core": "^7.0.7", "@octokit/graphql": "^9.0.4", "@octokit/plugin-paginate-rest": "^15.0.0", "@octokit/plugin-retry": "^8.1.1", "@octokit/plugin-throttling": "^11.0.5", "@octokit/request-error": "^7.1.1" } }, "sha512-txbYPYyLjUVbhhD22N39niH/swMEs/fkjIlEzM666dxaW1H5Oz0ANxy3nMq3TvE+8qhKyIOkwEM4192h8ZU4xg=="],
 
-    "@mattstack/rt-client": ["@mattstack/rt-client@0.14.0", "", { "dependencies": { "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.23.0" } }, "sha512-4jn1FTE/DXQ3ZRAlWxf/CD/N7KpgVJydXGBFYCrfe8Vwke4gkFiSf23dQC3kNMEe/Ux8JdDT+O3bcVZsC9eRXQ=="],
+    "@mattstack/rt-client": ["@mattstack/rt-client@0.33.0", "", { "dependencies": { "@cfworker/json-schema": "^4.1.1", "jsonc-parser": "^3.3.1" }, "peerDependencies": { "@mattstack/glance": ">=0.24.0" } }, "sha512-ZATxDWm7+lIUiygHAG3D/y+pTJsBI16AK5lLaK5ZqkSY3qpdCE2gE726Vijl12/bG/2nha3mc3Bf/9C+o188+w=="],
 
     "@octokit/auth-token": ["@octokit/auth-token@6.0.0", "", {}, "sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w=="],
 
